@@ -1,0 +1,11 @@
+To extract information  the name of gaussian output file should be " out.out"
+If you have any other name, rename it as *out.out"
+If you do not want to rename your gaussian output file than change "out.out" to "your file name" at line#8
+Put the script "extract.bash" and "out.out/yourfile" in a same folder
+Do ./extract.bash
+When it will prompt "Enter number of mode=" supply 3N-6 value. (suppose your molecule has 10 atom, enter 54"
+When it prompt "Enter number of mode/3=" sypply (3N-6)/3 value (suppose your molecule has 10 atom, enter 18"
+When it prompt "Enter number of atomes=" supply number of atoms(suppose your molecule has 10 atom, enter 10"
+
+enjoy! you will get three ".txt" files within 0.5 seconds. this is extremly fast code.
+Read this very simple code if you want to extract more informations. gaussian log file has more than 100 thousends lines .
