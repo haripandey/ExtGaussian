@@ -1,4 +1,4 @@
-To extract information  the name of gaussian output file should be " out.out"
+To extract information,the name of gaussian output file should be " out.out"
 If you have any other name, rename it as *out.out"
 If you do not want to rename your gaussian output file than change "out.out" to "your file name" at line#8
 Put the script "extract.bash" and "out.out/yourfile" in a same folder
