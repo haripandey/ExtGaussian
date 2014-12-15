@@ -3,7 +3,7 @@
 ######This script extract , frequencies, eigen vector, and cubic force constants 
 ###### Eigen vector will be in the form of (X,Y,Z), 
 ##### eigen_vector.txt , frequency.txt and eigen_vector.txt are out put  files
-##### out.out is input file from Gaussian09,  anharmonic MP3 opt+freq 
+##### out.out is input file from Gaussian09,  anharmonic MP3/631G** opt+freq 
 
 awk '/and normal/,/Harmonic frequencies/ {print}' out.out> t.doc
 
