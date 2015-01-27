@@ -1,10 +1,10 @@
 #!/bin/bash
-
+##COPY RIGHT::: HARI DATT PANDEY/Dr.DAVID M. LEITNER, DEPARTMENT OF CHEMICAL PHYSICS, UNIVERSITY OF NEVADA RENO.
 ######This script extract , frequencies, eigen vector, and cubic force constants 
 ###### Eigen vector will be in the form of (X,Y,Z), 
 ##### eigen_vector.txt , frequency.txt and eigen_vector.txt are out put  files
 ##### out.out is input file from Gaussian09,  anharmonic MP3/631G** opt+freq 
-
+echo "COPY RIGHT::: HARI DATT PANDEY/DAVID M. LEITNER, DEPARTMENT OF CHEMICAL PHYSICS, UNIVERSITY OF NEVADA RENO."
 awk '/and normal/,/Harmonic frequencies/ {print}' out.out> t.doc
 
 #####PRINT FREQUENCY IN SINGLE COLUMN#############################.
